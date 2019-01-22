@@ -1,7 +1,7 @@
 # Bitwig Studio on Fedora
 
-Automatization of Bitwig Studio installation process on Fedora.
-I forked this because it hasn't been updated for the latest version of Bitwig or supported the latest version of Fedora.
+A script that installs Bitwig Studio on Fedora.
+I forked this from the original creator because it hasn't been updated for the latest release of Fedora.
 
 ## Install procedure
 
