@@ -3,7 +3,7 @@
 A script that installs Bitwig Studio on Fedora.
 I forked this from the original creator because it hasn't been updated for the latest release of Fedora.
 
-## Install procedure
+## Installation
 
 ```bash
 $ git clone https://github.com/nunodio/bitwig-fedora.git
@@ -15,7 +15,7 @@ $ chmod +x bitwig-fedora.sh
 $ sudo ./bitwig-fedora.sh -i
 ```
 
-## Uninstall procedure
+## Uninstallation
 
 This procedure is only available if you installed Bitwig Studio with this script.
 
