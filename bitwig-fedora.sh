@@ -1,7 +1,7 @@
 #!/bin/bash
 #=============================================================================
 #
-# FILE: bitwig-fedora.sh
+# FILE: bitwig-fedora.sh 
 #
 # USAGE: bitwig-fedora.sh [-i|-u] [-h]
 #
