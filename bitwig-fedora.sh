@@ -9,12 +9,12 @@
 
 ROOT_UID=0
 E_NOTROOT=87
-VERSION=2.5
+VERSION=2.5.1
 DEFAULT_FILENAME="bitwig-studio-$VERSION.deb"
 DEFAULT_URL="https://downloads.bitwig.com/stable/$VERSION/$DEFAULT_FILENAME"
 INSTALL_LOG="/opt/bitwig-studio/.$DEFAULT_FILENAME.log"
 SAFE_FILE_REMOVE="^/\./usr/share/*|^/\./opt/bitwig-studio/*"
-OS_VERSION="Fedora release 29 (Twenty Nine)"
+OS_VERSION="Fedora release 30 (Thirty)"
 
 
 #=== FUNCTION ================================================================
