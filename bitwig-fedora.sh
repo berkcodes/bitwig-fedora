@@ -9,12 +9,11 @@
 
 ROOT_UID=0
 E_NOTROOT=87
-VERSION=3.0.2
+VERSION=3.0.3
 DEFAULT_FILENAME="bitwig-studio-$VERSION.deb"
 DEFAULT_URL="https://downloads.bitwig.com/stable/$VERSION/$DEFAULT_FILENAME"
 INSTALL_LOG="/opt/bitwig-studio/.$DEFAULT_FILENAME.log"
 SAFE_FILE_REMOVE="^/\./usr/share/*|^/\./opt/bitwig-studio/*"
-OS_VERSION="Fedora release 30 (Thirty)"
 
 
 #=== FUNCTION ================================================================
@@ -157,11 +156,6 @@ function uninstall()
 
 
 #=== MAIN ====================================================================
-if [ "$(cat /etc/fedora-release)" != "$OS_VERSION" ] ; then
-  echo "Wrong OS version. Make sure you run the script in - $OS_VERSION -."
-  exit 1
-fi
-
 if [ "$UID" -ne "$ROOT_UID" ]; then
   echo "You must be root to run this script."
   exit $E_NOTROOT
