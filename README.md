@@ -1,6 +1,5 @@
 # Bitwig Studio on Fedora
-A script that installs Bitwig Studio on Fedora.
-I forked this from the original creator because it hasn't been updated for the latest release of Fedora.
+A script that installs the latest version of Bitwig Studio on Fedora.
 
 ## Installation
 ```bash
@@ -18,3 +17,5 @@ Example: if you installed Bitwig Studio with the script version/tag 2.2.2, use t
 ```bash
 sudo ./bitwig-fedora.sh -u
 ```
+## Bitwig Studio out of date?
+If Bitwig Studio is out-of-date, feel free to update the script yourself by editing the `VERSION=` parameter. Alternatively, you can submit a pull-request or a bug report.
