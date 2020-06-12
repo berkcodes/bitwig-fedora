@@ -3,7 +3,7 @@ A script that installs the latest version of Bitwig Studio on Fedora.
 
 ## Installation
 ```bash
-$ git clone https://github.com/berkcodes/bitwig-fedora.git && cd bitwig-fedora
+$ git clone git@github.com:antanasbruzas/bitwig-fedora.git && cd bitwig-fedora
 
 $ chmod +x bitwig-fedora.sh
 
