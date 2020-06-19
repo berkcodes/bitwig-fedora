@@ -9,7 +9,7 @@
 
 ROOT_UID=0
 E_NOTROOT=87
-VERSION=3.2.1
+VERSION=3.2.2
 DEFAULT_FILENAME="bitwig-studio-$VERSION.deb"
 DEFAULT_URL="https://downloads.bitwig.com/stable/$VERSION/$DEFAULT_FILENAME"
 INSTALL_LOG="/opt/bitwig-studio/.$DEFAULT_FILENAME.log"
