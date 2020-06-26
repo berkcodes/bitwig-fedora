@@ -1,5 +1,5 @@
 # Bitwig Studio on Fedora
-A script that installs the latest version of Bitwig Studio on Fedora.
+A script that installs the latest version of Bitwig Studio on Fedora. Now you don't need to update the script, it will automatically scrape bitwig.com/download and get the latest version. To update, simply re-run the script.
 
 ## Installation / Updating (one-liner)
 To install Bitwig on Fedora, simply copy paste the command below.
