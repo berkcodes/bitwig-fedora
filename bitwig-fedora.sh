@@ -11,9 +11,8 @@
 
 ROOT_UID=0
 E_NOTROOT=87
-VERSION=$(curl https://www.bitwig.com/en/download > tmp_file && cat tmp_file | grep "margin-bottom" | cut -c52-56)
-DEFAULT_FILENAME="bitwig-studio-$VERSION.deb"
-DEFAULT_URL="https://downloads.bitwig.com/stable/$VERSION/$DEFAULT_FILENAME"
+DEFAULT_FILENAME="bitwig-studio-latest.deb"
+DEFAULT_URL="https://www.bitwig.com/dl/?id=419&os=installer_linux"
 INSTALL_LOG="/opt/bitwig-studio/.$DEFAULT_FILENAME.log"
 SAFE_FILE_REMOVE="^/\./usr/share/*|^/\./opt/bitwig-studio/*"
 
