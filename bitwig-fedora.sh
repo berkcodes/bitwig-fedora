@@ -42,7 +42,7 @@ function download_bitwig()
     echo "Package $DEFAULT_FILENAME already exists."
   else
     echo "Package $DEFAULT_FILENAME does not exist. Initializing the download."
-    wget $DEFAULT_URL
+    wget -O bitwig-studio-latest.deb $DEFAULT_URL
   fi
 }
 
