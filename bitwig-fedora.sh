@@ -7,11 +7,12 @@
 #
 #=============================================================================
 
+
+
 ROOT_UID=0
 E_NOTROOT=87
-VERSION=3.2.1
-DEFAULT_FILENAME="bitwig-studio-$VERSION.deb"
-DEFAULT_URL="https://downloads.bitwig.com/stable/$VERSION/$DEFAULT_FILENAME"
+DEFAULT_FILENAME="bitwig-studio-latest.deb"
+DEFAULT_URL="https://www.bitwig.com/dl/?id=419&os=installer_linux"
 INSTALL_LOG="/opt/bitwig-studio/.$DEFAULT_FILENAME.log"
 SAFE_FILE_REMOVE="^/\./usr/share/*|^/\./opt/bitwig-studio/*"
 
@@ -41,7 +42,7 @@ function download_bitwig()
     echo "Package $DEFAULT_FILENAME already exists."
   else
     echo "Package $DEFAULT_FILENAME does not exist. Initializing the download."
-    wget $DEFAULT_URL
+    wget -O bitwig-studio-latest.deb $DEFAULT_URL
   fi
 }
 
