@@ -1,6 +1,11 @@
 # Bitwig Studio on Fedora
 A script that installs the latest version of Bitwig Studio on Fedora. Now you don't need to update the script, it will automatically scrape bitwig.com/download and get the latest version. To update, simply re-run the script.
 
+## Update (May 2021)
+Bitwig is now available to download from the Flathub store which should be the preferred way to download the program. I won't be supporting this script anymore so if you are looking to run Bitwig on basically any Linux distribution, you can download it as a Flatpak.
+
+https://flathub.org/apps/details/com.bitwig.BitwigStudio
+
 #### Disclaimer
 This script is a bit messy so use at your own risk. Until the Flatpak version comes around, you can use this install and update Bitwig. There may be some issues with the script as the Bitwig Studio site does change, if you encounter any issues, please open an issue.
 
