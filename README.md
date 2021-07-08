@@ -32,3 +32,4 @@ sudo ./bitwig-fedora.sh -u
 ```
 ## Bitwig Studio out of date?
 If Bitwig Studio is out-of-date, feel free to update the script yourself by editing the `VERSION=` parameter. Alternatively, you can submit a pull-request or a bug report.
+
